@@ -15,13 +15,13 @@ export const InvestmentForm: React.FC = () => {
   const [selectedFund, setSelectedFund] = useState<string>("");
   const [errorMessage, setErrorMessage] = useState<string>("");
   const [value, setValue] = useState(0);
-  const [investment, setInvestment] = useState<Investment[] | null>(null);
+  const [investments, setInvestments] = useState<Investment[] | null>(null);
 
   const {
     data: investmentResponse,
     loading: investmentLoading,
     error: investmentError,
-  } = useFetch(investment ? "investments" : null, "POST", investment);
+  } = useFetch(investments ? "investments" : null, "POST", investments);
 
   const handleValueChange = (value: React.SetStateAction<number>) => {
     setValue(value);
@@ -41,7 +41,7 @@ export const InvestmentForm: React.FC = () => {
     }
 
     setErrorMessage("");
-    setInvestment(
+    setInvestments(
       user
         ? [
             {
@@ -116,7 +116,7 @@ export const InvestmentForm: React.FC = () => {
             ⚠ {errorMessage}
           </p>
         )}
-        {!investment && (
+        {!investments && (
           <button
             className="rounded-full bg-white text-black font-bold px-4 py-3 mt-6 hover:bg-gray-100"
             type="submit"
