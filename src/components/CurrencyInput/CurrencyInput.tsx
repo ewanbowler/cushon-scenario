@@ -57,7 +57,7 @@ export const CurrencyInput: React.FC<Props> = ({
     [max, onValueChange, value]
   );
 
-  const valueDisplay = (value / 100).toLocaleString("en-US", {
+  const valueDisplay = (value / 100).toLocaleString("en-GB", {
     style: "currency",
     currency: "GBP",
   });

@@ -6,7 +6,7 @@ import { Investment } from "../../types";
 export const Investments: React.FC = () => {
   const { user } = useContext(UserContext) ?? {};
   const formatCurrency = (value: number) => {
-    return (value / 100).toLocaleString("en-US", {
+    return (value / 100).toLocaleString("en-GB", {
       style: "currency",
       currency: "GBP",
     });
