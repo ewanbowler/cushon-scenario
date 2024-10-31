@@ -1,0 +1,24 @@
+<svg id="Horizontal_NatWest_Logo" viewBox="0 0 750 750" width="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#fff;}.cls-3{fill:#e90000;}.cls-4{fill:#c20000;}.cls-5{fill:#3c1053;}</style>
+    <linearGradient id="linear-gradient" gradientUnits="userSpaceOnUse" x1="387.44" x2="462.1" y1="365.33" y2="408.44">
+      <stop offset="0" stop-color="#c20000" stop-opacity=".1"></stop>
+      <stop offset=".24" stop-color="#c20000" stop-opacity=".2"></stop>
+      <stop offset=".72" stop-color="#c20000" stop-opacity=".44"></stop>
+      <stop offset="1" stop-color="#c20000" stop-opacity=".6"></stop>
+    </linearGradient>
+  </defs>
+  <g id="NW_Squircle">
+    <g id="Squircle">
+      <path class="cls-5" d="m625,375c0,231.85-18.15,250-250,250s-250-18.15-250-250,18.15-250,250-250,250,18.15,250,250Z"></path>
+    </g>
+    <g id="Chevrons">
+      <polygon class="cls-3" points="449.68 429.95 350.18 429.95 399.9 516.17 499.41 516.17 499.43 516.17 449.68 429.95"></polygon>
+      <polygon class="cls-4" points="499.4 343.83 549.15 430 499.43 516.17 449.68 429.96 499.4 343.83"></polygon>
+      <polygon class="cls-3" points="424.75 214.54 325.26 214.54 275.54 300.66 375.03 300.66 424.75 214.54"></polygon>
+      <polygon class="cls-4" points="375.03 300.66 424.78 386.85 474.5 300.71 424.75 214.54 375.03 300.66"></polygon>
+      <polygon class="cls-3" points="300.38 429.95 350.1 343.83 250.6 343.83 200.88 429.95 300.38 429.95"></polygon>
+      <polygon class="cls-4" points="350.12 516.17 250.6 516.17 200.85 429.99 300.38 429.95 350.12 516.17"></polygon>
+    </g>
+  </g>
+</svg>
