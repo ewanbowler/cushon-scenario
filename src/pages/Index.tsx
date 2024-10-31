@@ -7,7 +7,10 @@ export const Index: React.FC = () => {
   const { user } = useContext(UserContext) ?? {};
 
   return user ? (
-    <div className="flex flex-col">
+    <div className="flex flex-col max-w-8xl mx-auto">
+      <h1 className="px-8 text-3xl font-bold mt-8">
+        Cushon Personal Investments
+      </h1>
       <InvestmentForm />
       <Investments />
     </div>

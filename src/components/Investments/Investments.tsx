@@ -18,7 +18,9 @@ export const Investments: React.FC = () => {
   } = useFetch(user ? `investments/user/${user.id}` : null);
 
   return (
-    <div className="max-w-8xl bg-cushonPink m-8 p-8 rounded-xl text-white">
+    <div className="max-w-8xl bg-cushonPink mx-8 mb-8 p-8 rounded-xl text-white">
+      <h2 className="font-bold text-2xl mb-5">Your investments</h2>
+
       {investmentsLoading && <p>Investments loading...</p>}
       {investmentsError && (
         <p>An error occurred while getting your investments.</p>

@@ -61,6 +61,7 @@ export const InvestmentForm: React.FC = () => {
 
   return (
     <div className="max-w-8xl bg-cushonPink m-8 p-8 rounded-xl text-white">
+      <h2 className="font-bold text-2xl mb-5">Make an investment</h2>
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-3">
           <label className="border-b border-white font-bold" htmlFor="fund">
